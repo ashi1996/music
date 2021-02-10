@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="video.css">
+  <title>Video</title>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="lodash.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/videoManager.js"></script>
+  <script src="js/class.js"></script>
+  <script src="js/dark.js"></script>
+  <script src="js/viewElement.js"></script>
+</head>
+
+<body>
+  <header class="container-fluid bg-dark">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="text-white fw-bolder ourLogo">
+        For<span class="text-danger">You</span>
+      </div>
+      <nav>
+        <a href="#">Sign up</a>
+        <a href="#">Sign in</a>
+      </nav>
+    </div>
+  </header>
+  <div class="strip container-fluid">
+    <div class="container text-danger wewe">We the best music...</div>
+  </div>
+  <main class="container-fluid ">
+    <div class="container">
+
+
+      <div class="d-md-flex  align-items-center justify-content-between">
+
+
+
+        <div>
+          <h2 class="text-white fw-bolder pt-md-5 me-3">Most Popular Songs!!!</h2>
+          <nav>
+            <a data-year="the 80s" href="#">The 80s</a>
+            <a data-year="the 90s" href="#">The 90s</a>
+            <a data-year="the 2000s" href="#">Contemporary</a>
+          </nav>
+        </div>
+
+        <div class="search d-flex  pt-md-5">
+
+
+
+          <select class=" form-select  me-1  " id="id_select" style="width: 100px;">
+            <option value="">Sort By</option>
+            <option value="title">Title</option>
+            <option value="duration">Duration</option>
+            <option value="preview">Preview</option>
+          </select>
+  
+  
+  
+
+          <input class="form-control" placeholder="Search Song..." type="search" id="id_input">
+          <button class="btn btn-info searchBtn" id="id_btn"> <i class="fa fa-search" aria-hidden="true"></i></button>
+  
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+      <div class="text-white  mt-5 text-center" id="search_info">
+        <!-- dgfggggggggggggg -->
+      </div>
+
+      <div class="row mt-3  p-0 justify-content-center" id="id_row">
+
+        <div class="loader"></div>
+        <!-- <div class="col-md-3 p-2 my-3 text-center">
+          <img src="_img/music.jpg"  class="card-img-top" alt="...">
+        
+            <div class="bg-white  p-2">
+              <h2 class=>Song </h2>
+              <div class=>year</div>
+              <button class="btn m-2 playBtn"><i class="fa fa-play fw-bolder" aria-hidden="true"></i></button>
+            </div>
+          </div> -->
+      </div>
+
+    </div>
+    </div>
+    <div class="float-end like p-2 ">
+      <div>Like Us</div>
+      <i class="fa fa-thumbs-o-up ms-2" aria-hidden="true"></i>
+    </div>
+  </main>
+</body>
+
+</html>
